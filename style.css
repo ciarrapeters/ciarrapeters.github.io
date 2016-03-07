@@ -31,5 +31,5 @@ ul li a.customnav {
 	border-radius: 4px 4px 0 0;
 }
 ul li a.customnav:hover {
-	color: pink;
+	color: pink !important;
 }
