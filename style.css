@@ -1,35 +1,161 @@
 #name {
-	color: pink;
-
+	color: #67b2d6;
+	padding-top: 80px;
 }
 
 .jumbotron {
 	background: url("Revolution.jpg") center center;
 	height: 500px;
 	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 
+}
+
+
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: .5px;
+	font-weight: lighter;
+	top: 0px;
+	text-transform: uppercase;
+}
+
+
+.navbar-inverse {
+    background: #67b2d6;
+}
+
+.customnav {
+	background-color: gray;
+	left: 4px;
+}
+
+
+.navbar-inverse .navbar-brand {
+	padding: 20px;
+	font-size: 30px;
+	padding-top: 23px;
+	color: lightgray;
+    letter-spacing: .5px;
+    position: fixed;
+}
+
+.navbar-inverse .navbar-nav a {
+    background: black;
+}
+.navbar-inverse .navbar-nav a:hover {
+    background: #67b2d6;
+    border-radius: 10px 10px 10px 10px;
+} 
+
+
+.navbar-right {
+	background-color: black;
+	padding: 8px 8px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+a {
+    color: #6dc8f4;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a:hover, a:focus {
+    color: #6dc8f4;
+    text-decoration: none;
+    outline: 0;
+}
+a:before, a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 
 body {
-	background: white;
+	margin-top: 60px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#Bio {
+	font-size: 18px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#myface {
+	text-align: center;
 }
 
 
-ul {
-	display: inline;
+
+footer {
+	border-top: 1px solid #FFFFFF;
+	background-color: #67b2d6;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+#updated {
 	background-color: black;
-	color: white;
-	padding: 10px 20px;
-	border-radius: 4px 4px 0 0;
+	color: lightgray;
+	font-size: 10px;
+	padding: 50px;
+	text-align: center;
 }
 
-ul li a.customnav {
-	background-color: black;
-	color: white;
-	padding: 10px 20px;
-	border-radius: 4px 4px 0 0;
+
+#activities {
+	font-size: 17px;
+	font-weight: bold;
 }
-ul li a.customnav:hover {
-	color: pink !important;
+
+#lang {
+	margin-left: -40px;
 }
+
+#northeastern {
+	font-size: 17px;
+}
+
+#STARS {
+
+}
+
+#scifair {
+
+}
+
+#APA {
+
+}
+
+#ditto {
+
+}
+
+#barnes {
+
+}
+
+.col-sm-4 {
+	background-color: gray;
+	padding: 5px;
+	border-radius: 5px 5px 5px 5px;
+	margin: 7px 7px;
+}
+
+#cover {
+	margin-left: 100px;
+}
+
