@@ -27,11 +27,6 @@
     background: #67b2d6;
 }
 
-.customnav {
-	background-color: gray;
-	left: 4px;
-}
-
 
 .navbar-inverse .navbar-brand {
 	padding: 20px;
@@ -43,10 +38,10 @@
 }
 
 .navbar-inverse .navbar-nav a {
-    background: black;
+    background-color: black;
 }
 .navbar-inverse .navbar-nav a:hover {
-    background: #67b2d6;
+    background: #67b2d6 !important;
     border-radius: 10px 10px 10px 10px;
 } 
 
@@ -58,19 +53,21 @@
 }
 
 a {
-    color: #6dc8f4;
-    word-wrap: break-word;
+	color: #38505c;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
+
 a:hover, a:focus {
     color: #6dc8f4;
     text-decoration: none;
     outline: 0;
 }
+
+
 a:before, a:after {
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -128,25 +125,11 @@ footer {
 	font-size: 17px;
 }
 
-#STARS {
-
+#exp {
+	font-size: 18px;
+	font-weight: bold;
 }
 
-#scifair {
-
-}
-
-#APA {
-
-}
-
-#ditto {
-
-}
-
-#barnes {
-
-}
 
 .col-sm-4 {
 	background-color: gray;
@@ -159,3 +142,7 @@ footer {
 	margin-left: 100px;
 }
 
+#projects {
+	font-size: 20px;
+	color: #38505c;
+}
