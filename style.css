@@ -9,6 +9,7 @@
 	text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin-top: -60px;
 
 }
 
@@ -20,6 +21,7 @@
 	font-weight: lighter;
 	top: 0px;
 	text-transform: uppercase;
+	opacity: .9;
 }
 
 
