@@ -41,13 +41,20 @@
     position: fixed;
 }
 
+
 .navbar-inverse .navbar-nav a {
     background-color: black;
 }
 .navbar-inverse .navbar-nav a:hover {
-    background: #67b2d6 !important;
+    background: white !important;
     border-radius: 10px 10px 10px 10px;
-} 
+    color: #67b2d6 !important;
+}
+.navbar-inverse .navbar-nav a.active {
+    background: #67b2d6;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
 
 
 .navbar-right {
@@ -55,6 +62,7 @@
 	padding: 8px 8px;
 	border-radius: 10px 10px 10px 10px;
 }
+
 
 a {
 	color: #38505c;
