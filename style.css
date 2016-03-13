@@ -6,7 +6,7 @@
 }
 
 .jumbotron {
-	background: url("Revolution.jpg") center center;
+	background: url("Revolutionedit.jpg") center center;
 	height: 500px;
 	text-align: center;
 	background-size: cover;
@@ -20,7 +20,6 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	letter-spacing: .5px;
-	font-weight: lighter;
 	top: 0px;
 	text-transform: uppercase;
 	opacity: .9;
@@ -46,21 +45,21 @@
     background-color: black;
 }
 .navbar-inverse .navbar-nav a:hover {
-    background: white !important;
-    border-radius: 10px 10px 10px 10px;
+    /*background: white !important;
+    border-radius: 2px 2px 2px 2px;*/
     color: #67b2d6 !important;
 }
 .navbar-inverse .navbar-nav a.active {
     background: #67b2d6;
     color: white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 2px 2px 2px 2px;
 }
 
 
 .navbar-right {
 	background-color: black;
 	padding: 8px 8px;
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 3px 3px 3px 3px;
 }
 
 
