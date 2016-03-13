@@ -17,8 +17,8 @@
 
 
 .navbar {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	letter-spacing: .5px;
 	top: 0px;
 	text-transform: uppercase;
@@ -46,8 +46,6 @@
     margin: 3px 3px 3px 3px;
 }
 .navbar-inverse .navbar-nav a:hover {
-    background: white !important;
-    border-radius: 2px 2px 2px 2px;
     color: #67b2d6 !important;
     margin: 3px 3px 3px 3px;
 }
@@ -55,6 +53,11 @@
     background: #67b2d6;
     color: white;
     border-radius: 2px 2px 2px 2px;
+}
+
+.navbar-inverse .navbar-nav a.active:hover{
+	background-color: #67b2d6;
+	color: gray !important;
 }
 
 
