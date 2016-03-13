@@ -1,7 +1,7 @@
-
+/*#67b2d6*/
 
 #name {
-	color: #67b2d6;
+	color: #006680;
 	padding-top: 80px;
 	font-family: 'Abel';
 }
@@ -21,14 +21,13 @@
 
 .navbar {
 	letter-spacing: .5px;
-	top: 0px;
 	text-transform: uppercase;
 	opacity: .9;
 }
 
 
 .navbar-inverse {
-    background: #67b2d6;
+    background: #006680;
 }
 
 
@@ -47,17 +46,17 @@
     margin: 3px 3px 3px 3px;
 }
 .navbar-inverse .navbar-nav a:hover {
-    color: #67b2d6 !important;
+    color: #006680 !important;
     margin: 3px 3px 3px 3px;
 }
 .navbar-inverse .navbar-nav a.active {
-    background: #67b2d6;
+    background: #006680;
     color: white;
     border-radius: 2px 2px 2px 2px;
 }
 
 .navbar-inverse .navbar-nav a.active:hover{
-	background-color: #67b2d6;
+	background-color: #006680;
 	color: gray !important;
 }
 
@@ -70,7 +69,7 @@
 
 
 a {
-	color: #38505c;
+	color: #b3f0ff;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -113,7 +112,7 @@ body {
 
 footer {
 	border-top: 1px solid #FFFFFF;
-	background-color: #67b2d6;
+	background-color: #006680;
 	padding: 10px;
 	font-size: 15px;
 	text-align: center;
