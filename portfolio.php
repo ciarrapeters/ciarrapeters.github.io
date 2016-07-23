@@ -272,19 +272,7 @@
 			<br>
 
 
-		<footer>
-			<div>
-				<p>Contact Me<br>
-					Phone:<span>314-620-0040</span><br>
-					Email: <a href="mailto:peters.ci@husky.neu.edu">peters.ci@husky.neu.edu</a><br>
-					Address: 1155 Tremont St #8802, Roxbury Crossing, MA 02120
-				</p>
-			</div>
-		</footer>
-
-		<div id="updated">
-				<p>Last updated March 12, 2016<br>Use of the images found on this website is prohibited without permission from the creator.</p>
-		</div>
+		<?php include("includes/footer.html");?>
 
 
 

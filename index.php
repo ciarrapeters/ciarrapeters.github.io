@@ -69,19 +69,7 @@
 		</div>
 
 
-		<footer>
-			<div>
-				<br><p>Contact Me<br>
-					Phone: <span>314-620-0040</span><br>
-					Email: <a href="mailto:peters.ci@husky.neu.edu">peters.ci@husky.neu.edu</a><br>
-					Address: 480 Rear Parker St, Boston, MA 02115
-				</p>
-			</div>
-		</footer>
-
-		<div id="updated">
-				<p>Last updated July 23, 2016<br>Use of the images found on this website is prohibited without permission from the creator.</p>
-		</div>
+		<?php include("includes/footer.html");?>
 
 
 	<script type="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
