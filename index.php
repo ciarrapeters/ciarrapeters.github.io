@@ -34,10 +34,10 @@
 
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a class="active" class="myNavbar" href="Home.html">Home</a></li>
+						<li><a class="active" class="myNavbar" href="index.php">Home</a></li>
   						<li><a class="myNavbar" href="education.html">Education</a></li>
   						<li><a class="myNavbar" href="experience.html">Experience</a></li>
-  						<li><a class="myNavbar" href="portfolio.html">Portfolio</a></li>
+  						<li><a class="myNavbar" href="portfolio.php">Portfolio</a></li>
   						<li><a class="myNavbar" href="projects.html">Projects</a></li>
   						<li><a class="myNavbar" href="Resume Pretty (grey and green) July 2016 edited.pdf">Resume</a></li> 
   					</ul>
