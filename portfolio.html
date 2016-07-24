@@ -13,6 +13,9 @@
 
 			<link rel="stylesheet" type="text/css" href="style.css">
 
+			<script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+
 	</head>
 
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -272,11 +275,13 @@
 			<br>
 
 
-		<?php include("includes/footer.html");?>
+		<div w3-include-html="footer.html"></div>
 
 
 
 			<script type="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<script>w3IncludeHTML();</script>
+
 	</body>
 
 </html>
