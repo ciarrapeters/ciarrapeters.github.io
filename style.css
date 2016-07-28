@@ -20,6 +20,11 @@
 
 }
 
+.banner {
+	background-color: #006680;
+	padding: 20px;
+}
+
 
 .navbar {
 	letter-spacing: .5px;
