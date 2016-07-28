@@ -78,7 +78,7 @@
 
 
 a {
-	color: rgb(0, 153, 153);
+	color: rgb(0, 179, 179);
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -87,7 +87,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: rgb(0, 179, 179);
+    color: rgb(0, 204, 204);
     text-decoration: none;
     outline: 0;
 }
