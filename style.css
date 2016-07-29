@@ -165,6 +165,12 @@ footer {
 	margin: 7px 7px;
 }
 
+#shrink {
+	width: 50% !important;
+	height: 50% !important;
+}
+
+
 #cover {
 	margin-left: 100px;
 }
