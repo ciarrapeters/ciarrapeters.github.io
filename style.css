@@ -48,6 +48,12 @@
     position: fixed;
 }
 
+@media screen and (max-width: 480px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 10px;
+    }
+}
+
 
 .navbar-inverse .navbar-nav a {
     background-color: black;
@@ -163,12 +169,6 @@ footer {
 	border-radius: 5px 5px 5px 5px;
 	margin: 7px 7px;
 }
-
-#shrink {
-	width: 50% !important;
-	height: 50% !important;
-}
-
 
 #cover {
 	margin-left: 100px;
