@@ -153,8 +153,18 @@ footer {
 	font-weight: bold;
 }
 
+#bolddeans {
+	font-weight: bolder;
+	margin-left: -20px;
+}
+
+#deans {
+	margin-left: -20px;
+	margin-top: -10px;
+}
+
 #lang {
-	margin-left: -40px;
+	margin-left: -20px;
 }
 
 #northeastern {
