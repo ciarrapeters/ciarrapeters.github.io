@@ -50,7 +50,11 @@
 
 @media screen and (max-width: 480px) {
     .navbar-inverse .navbar-brand {
-        font-size: 10px;
+        font-size: 20px;
+    }
+
+    .banner {
+    	margin-top: -10px;
     }
 }
 
