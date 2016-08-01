@@ -124,9 +124,6 @@ body {
 	text-align: center;
 }
 
-#myface {
-	text-align: center;
-}
 
 
 
@@ -177,20 +174,42 @@ footer {
 }
 
 
-.col-sm-4 {
-	background-color: gray;
-	padding: 5px;
-	border-radius: 5px 5px 5px 5px;
-	margin: 7px 7px;
-}
-
 #cover {
 	margin-left: 100px;
 }
 
 #projects {
 	padding: 20px;
-	padding-bottom: 200px;
-	font-size: 20px;
-	color: (0, 153, 153);
 }
+
+.projects {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 20%;
+	/*I don't understand why the bottom scrollbar comes up when this isn't here...*/
+	/*padding-right: 2%;
+	margin-left: -20px;
+	margin-right: -20px;*/
+
+	color: white;
+	text-transform: uppercase;
+}
+
+.btn {
+	background-color: darkred;
+	border: 3px solid white;
+	font-weight: bold;
+}
+
+.btn:hover{
+	border-color: white;
+	background-color: white;
+	color: darkred;
+	font-weight: bold;
+}
+
+#bannertitle {
+	text-align: left;
+}
+
+
