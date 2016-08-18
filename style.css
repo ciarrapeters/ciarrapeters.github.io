@@ -37,7 +37,13 @@
 
 
 .navbar-inverse {
-    background: #02b199;
+    /*background: #02b199;*/
+}
+
+
+.navbar-right {
+	padding: 2px 2px;
+	border-radius: 3px 3px 3px 3px;
 }
 
 
@@ -61,7 +67,6 @@
 
 
 .navbar-inverse .navbar-nav a {
-    background-color: black;
     margin: 3px 3px 3px 3px;
 }
 .navbar-inverse .navbar-nav a:hover {
@@ -79,12 +84,6 @@
 	color: gray !important;
 }
 
-
-.navbar-right {
-	background-color: black;
-	padding: 2px 2px;
-	border-radius: 3px 3px 3px 3px;
-}
 
 
 a {
