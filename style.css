@@ -141,11 +141,10 @@ footer {
 
 #updated {
 	background-color: rgb(26, 26, 26);
-	color: lightgray;
 	font-size: 10px;
 	padding: 50px;
 	text-align: center;
-	font-color: white;
+	font-color: white !important;
 }
 
 
