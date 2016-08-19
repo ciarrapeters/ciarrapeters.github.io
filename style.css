@@ -55,13 +55,17 @@
     position: fixed;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 770px) {
     .navbar-inverse .navbar-brand {
         font-size: 25px;
     }
 
     .banner {
-    	margin-top: -20px;
+    	margin-top: -10px;
+    }
+
+    .parallax-art {
+    	margin-top: -10px;
     }
 }
 
