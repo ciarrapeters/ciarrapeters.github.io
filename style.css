@@ -144,6 +144,16 @@ p {
 	opacity: .6;
 }
 
+.parallax-projects {
+	background-image: url("changuagepic.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .6;
+}
+
 .caption {
 	position: absolute;
 	text-align: center;
@@ -233,23 +243,22 @@ footer {
 	/*padding-right: 2%;
 	margin-left: -20px;
 	margin-right: -20px;*/
-
-	color: white;
 	text-transform: uppercase;
     letter-spacing: .6px;
 }
 
 .btn {
-	background-color: darkred;
+	background-color: rgb(127, 127, 153);
 	border: 3px solid white;
 	font-weight: bold;
 	border-radius: 0px;
+	font-size: 16px;
 }
 
 .btn:hover{
 	border-color: white;
 	background-color: white;
-	color: darkred;
+	color: rgb(127, 127, 153);
 	font-weight: bold;
 }
 
