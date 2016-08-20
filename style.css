@@ -146,15 +146,6 @@ p {
 	opacity: .6;
 }
 
-.parallax-projects {
-	background-image: url("changuagepic.jpg");
-	min-height: 600px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .6;
-}
 
 .parallax-education1 {
 	background-image: url("neupic.jpg");
@@ -226,6 +217,16 @@ p {
 	opacity: .7;
 }
 
+.parallax-projects {
+	background-image: url("circuitpurple.jpg");
+	min-height: 400px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .9;
+}
+
 .caption {
 	/*This makes the captions all be together at the top*/
 	position: absolute;
@@ -239,7 +240,7 @@ p {
 	position: absolute;
 	text-align: center;
 	width: 100%;
-	margin-top: 40px;
+	margin-top: 10%;
 }
 
 .border {
