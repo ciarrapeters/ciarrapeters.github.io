@@ -75,6 +75,9 @@
     .parallax-art {
     	margin-top: -10px;
     }
+    .parallax-education1 {
+    	margin-top: -10px;
+    }
 }
 
 
@@ -154,11 +157,42 @@ p {
 	opacity: .6;
 }
 
+.parallax-education1 {
+	background-image: url("neupic.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .7;
+}
+
+.parallax-education2 {
+	background-image: url("yunnandaxue.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .7;
+}
+
+.parallax-education3 {
+	background-image: url("westminster.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .7;
+}
+
 .caption {
+	/*This makes the captions all be together at the top*/
 	position: absolute;
 	text-align: center;
-	top: 50%;
 	width: 100%;
+	margin-top: 20%;
 }
 
 .border {
@@ -168,6 +202,11 @@ p {
 	padding: 20px;
 	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
+}
+
+
+.education-padding {
+	padding: 80px;
 }
 
 
@@ -195,30 +234,6 @@ footer {
 	padding: 50px;
 	margin-bottom: -10px;
 	text-align: center;
-}
-
-
-#activities {
-	font-size: 17px;
-	font-weight: bold;
-}
-
-#bolddeans {
-	font-weight: bolder;
-	margin-left: -20px;
-}
-
-#deans {
-	margin-left: -20px;
-	margin-top: -10px;
-}
-
-#lang {
-	margin-left: -20px;
-}
-
-#northeastern {
-	font-size: 17px;
 }
 
 #exp {
