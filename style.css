@@ -67,17 +67,26 @@
         font-size: 25px;
     }
 
-    .banner {
+    /*.banner {
     	margin-top: -10px;
-    }
-
-    .parallax-art {
+    }*/
+    .jumbotron {
     	margin-top: -10px;
     }
     .parallax-education1 {
     	margin-top: -10px;
     }
+    .parallax-experience1 {
+    	margin-top: -10px;
+    }
+    .parallax-art {
+    	margin-top: -10px;
+    }
+    .parallax-projects {
+    	margin-top: -10px;
+    }
 }
+
 
 
 .navbar-inverse .navbar-nav a {
