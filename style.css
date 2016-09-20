@@ -207,13 +207,13 @@ p {
 }
 
 .parallax-experience3 {
-	background-image: url("circuitpurple.jpg");
+	background-image: url("circuittextureblue.jpg");
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: .7;
+	opacity: .6;
 }
 
 .parallax-experience4 {
@@ -227,13 +227,13 @@ p {
 }
 
 .parallax-projects {
-	background-image: url("circuitpurple.jpg");
+	background-image: url("circuittextureblue.jpg");
 	min-height: 400px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: .9;
+	opacity: .7;
 }
 
 .caption {
