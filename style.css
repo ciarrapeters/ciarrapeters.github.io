@@ -201,7 +201,7 @@ p {
 }
 
 .parallax-experience2 {
-	background-image: url("barnes.jpg");
+	background-image: url("barnes2.jpg");
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -211,7 +211,7 @@ p {
 }
 
 .parallax-experience3 {
-	background-image: url("circuittextureblue.jpg");
+	background-image: url("The Broken Cross 2.0 Cover.jpg");
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -334,6 +334,10 @@ footer {
 
 #bannertitle {
 	text-align: left;
+}
+
+button {
+
 }
 
 
