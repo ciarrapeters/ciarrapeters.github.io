@@ -10,7 +10,7 @@
 
 .jumbotron {
 	background: url(Photos/Banner2edit.jpg) center center;
-	height: 500px;
+	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
@@ -151,7 +151,7 @@ p {
 
 .parallax-art {
 	background-image: url(Photos/6edit.jpg);
-	min-height: 600px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -162,7 +162,7 @@ p {
 
 .parallax-education1 {
 	background-image: url(Photos/neupic.jpg);
-	min-height: 600px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -172,7 +172,7 @@ p {
 
 .parallax-education2 {
 	background-image: url(Photos/yunnandaxue.jpg);
-	min-height: 600px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -182,7 +182,7 @@ p {
 
 .parallax-education3 {
 	background-image: url(Photos/westminster.jpg);
-	min-height: 600px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -192,7 +192,7 @@ p {
 
 .parallax-experience1 {
 	background-image: url(Photos/STARSparticipation.jpg);
-	min-height: 600px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -202,7 +202,7 @@ p {
 
 .parallax-experience2 {
 	background-image: url(Photos/barnes2.jpg);
-	min-height: 600px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -211,8 +211,8 @@ p {
 }
 
 .parallax-experience3 {
-	background-image: url(Photos/The Broken Cross 2.0 Cover.jpg);
-	min-height: 600px;
+	background-image: url(Photos/The%20Broken%20Cross%202.0%20Cover.jpg);
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -222,7 +222,7 @@ p {
 
 .parallax-experience4 {
 	background-image: url(Photos/DLG.jpg);
-	min-height: 600px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -232,7 +232,7 @@ p {
 
 .parallax-projects {
 	background-image: url(Photos/circuittextureblue.jpg);
-	min-height: 400px;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -261,7 +261,7 @@ p {
 	color: white;
 	opacity: .8;
 	padding: 20px;
-	font-size: 30px;
+	font-size: 3vw;
 	font-family: 'Raleway', sans-serif;
 }
 
