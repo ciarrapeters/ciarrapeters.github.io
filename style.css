@@ -9,7 +9,7 @@
 }
 
 .jumbotron {
-	background: url("Photos/Banner2edit.jpg") center center;
+	background: url(Photos/Banner2edit.jpg) center center;
 	height: 500px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -141,7 +141,7 @@ body {
 	margin-top: 60px;
 	font-family: 'Raleway', sans-serif;
 	background-color: rgb(250, 250, 250);
-	background-image: url("Photos/circuittexture.jpg");
+	background-image: url(Photos/circuittexture.jpg);
 }
 
 p {
@@ -150,7 +150,7 @@ p {
 
 
 .parallax-art {
-	background-image: url("Photos/6edit.jpg");
+	background-image: url(Photos/6edit.jpg);
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -161,7 +161,7 @@ p {
 
 
 .parallax-education1 {
-	background-image: url("Photos/neupic.jpg");
+	background-image: url(Photos/neupic.jpg);
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -171,7 +171,7 @@ p {
 }
 
 .parallax-education2 {
-	background-image: url("Photos/yunnandaxue.jpg");
+	background-image: url(Photos/yunnandaxue.jpg);
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -181,7 +181,7 @@ p {
 }
 
 .parallax-education3 {
-	background-image: url("Photos/westminster.jpg");
+	background-image: url(Photos/westminster.jpg);
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -191,7 +191,7 @@ p {
 }
 
 .parallax-experience1 {
-	background-image: url("Photos/STARSparticipation.jpg");
+	background-image: url(Photos/STARSparticipation.jpg);
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -201,7 +201,7 @@ p {
 }
 
 .parallax-experience2 {
-	background-image: url("Photos/barnes2.jpg");
+	background-image: url(Photos/barnes2.jpg);
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -211,7 +211,7 @@ p {
 }
 
 .parallax-experience3 {
-	background-image: url("Photos/The Broken Cross 2.0 Cover.jpg");
+	background-image: url(Photos/The Broken Cross 2.0 Cover.jpg);
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -221,7 +221,7 @@ p {
 }
 
 .parallax-experience4 {
-	background-image: url("Photos/DLG.jpg");
+	background-image: url(Photos/DLG.jpg);
 	min-height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -231,7 +231,7 @@ p {
 }
 
 .parallax-projects {
-	background-image: url("Photos/circuittextureblue.jpg");
+	background-image: url(Photos/circuittextureblue.jpg);
 	min-height: 400px;
 	background-attachment: fixed;
 	background-position: center;
