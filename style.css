@@ -17,7 +17,7 @@
 }
 
 .Hi {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	text-align: center;
 	padding-left: 20%;
@@ -25,6 +25,12 @@
 	opacity: .8;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1px;
+}
+
+#bio {
+	padding: 8vw;
+	text-align: center;
+	font-size: 2rem;
 }
 
 .banner {
@@ -143,10 +149,37 @@ body {
 	background-image: url(Photos/circuittexture.jpg);
 }
 
-p {
-	color: black;
+.dark-background {
+	background-image: url(Photos/circuittexture.png);
 }
 
+hr { 
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-style: inset;
+    border-width: 2px;
+} 
+
+p {
+	color: black;
+	text-align: justify;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+span {
+	color: black;
+}
 
 .parallax-art {
 	background-image: url(Photos/6edit.jpg);
@@ -264,9 +297,17 @@ p {
 	font-family: 'Raleway', sans-serif;
 }
 
+#prof-border {
+	color: white;
+	opacity: .8;
+	font-size: 2vw;
+	font-family: 'Raleway', sans-serif;
+}
 
-.education-padding {
+
+.body-container {
 	padding: 80px;
+	font-size: 2rem;
 }
 
 
@@ -278,16 +319,14 @@ footer {
 	text-align: center;
 }
 
-
-#Bio {
-	font-size: 18px;
-	padding-top: 30px;
+.contact {
 	text-align: center;
 }
 
 
 
-#updated {
+
+.updated {
 	background-color: rgb(26, 26, 26);
 	color: rgb(127, 127, 127) !important;
 	font-size: 10px;
@@ -308,30 +347,23 @@ footer {
 	padding-top: 1%;
 	padding-bottom: 1%;
 	padding-left: 15%;
-	/*I don't understand why the bottom scrollbar comes up when this isn't here...*/
-	/*padding-right: 2%;
-	margin-left: -20px;
-	margin-right: -20px;*/
 	text-transform: uppercase;
     letter-spacing: .6px;
 }
 
 .btn {
-	background-color: rgb(127, 127, 153);
-	border: 3px solid white;
+	background-color: transparent;
+	border: 3px solid rgb(127, 127, 153);
+	color: rgb(127, 127, 153);
 	font-weight: bold;
 	border-radius: 0px;
 	font-size: 16px;
 }
 
 .btn:hover{
-	border-color: white;
-	background-color: white;
-	color: rgb(127, 127, 153);
+	background-color: rgb(127, 127, 153);
+	border: 3px solid rgb(127, 127, 153);
+	color: white;
 	font-weight: bold;
-}
-
-#bannertitle {
-	text-align: left;
 }
 
