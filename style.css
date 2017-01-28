@@ -68,35 +68,48 @@
     position: fixed;
 }
 
-@media screen and (max-width: 770px) {
-    .navbar-inverse .navbar-brand {
-        font-size: 25px;
-    }
-
-    /*.banner {
-    	margin-top: -10px;
-    }*/
-    .jumbotron {
-    	margin-top: -10px;
-    }
-    .parallax-education1 {
-    	margin-top: -10px;
-    }
-    .parallax-experience1 {
-    	margin-top: -10px;
-    }
-    .parallax-art {
-    	margin-top: -10px;
-    }
-    .parallax-projects {
-    	margin-top: -10px;
-    }
-/*    .col-sm-6 {
-    	margin-right: -10px;
-    	margin-left: -10px;
-    }*/
+@media (max-width: 915px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
 }
 
+@media screen and (max-width: 615px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 20px;
+    }
+}
 
 
 .navbar-inverse .navbar-nav a {
@@ -295,6 +308,16 @@ span {
 	padding: 20px;
 	font-size: 4vw;
 	font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+	.caption {
+		margin-top: 50%;
+	}
+
+    .border {
+        font-size: 20px;
+    }
 }
 
 #prof-border {
