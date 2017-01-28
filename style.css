@@ -318,6 +318,13 @@ span {
     .border {
         font-size: 20px;
     }
+
+    .parallax-education1, .parallax-education2, .parallax-education3, 
+    .parallax-experience1, .parallax-experience2, .parallax-experience3, 
+    .parallax-experience4, .parallax-projects, .parallax-art,
+    .parallax-projects, .parallax {
+    	background-attachment: scroll;
+    }
 }
 
 #prof-border {
