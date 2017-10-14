@@ -1,399 +1,478 @@
-/*#67b2d6*/
-
-#name {
-	color: rgb(0, 153, 153);
-	padding-top: 80px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.jumbotron {
-	background: url(Photos/Banner2edit.jpg) center center;
-	height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: 'Raleway', sans-serif;
-}
-
-.Hi {
-	position: relative;
-	width: 100%;
-	text-align: center;
-	padding-left: 20%;
-	top: 30%;
-	opacity: .8;
-	font-family: 'Raleway', sans-serif;
-	letter-spacing: 1px;
-}
-
-#bio {
-	padding: 8vw;
-	text-align: center;
-	font-size: 2rem;
-}
-
-.banner {
-	background-color: rgb(127, 127, 153);
-	padding-bottom: 10%;
-	font-family: 'Lato', sans-serif;
-	color: rgb(250,250,250);
-	font-weight: lighter;
-}
-
-
-.navbar {
-	letter-spacing: .5px;
-	text-transform: uppercase;
-	opacity: .9;
-}
-
-
-.navbar-inverse {
-    /*background: #02b199;*/
-}
-
-
-.navbar-right {
-	padding: 2px 2px;
-	border-radius: 3px 3px 3px 3px;
-}
-
-
-.navbar-inverse .navbar-brand {
-	padding: 20px;
-	font-size: 30px;
-	color: lightgray;
-    letter-spacing: .5px;
-    position: fixed;
-}
-
-@media (max-width: 915px) {
-  .navbar-header {
-      float: none;
-  }
-  .navbar-left,.navbar-right {
-      float: none !important;
-  }
-  .navbar-toggle {
-      display: block;
-  }
-  .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-  }
-  .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
-  }
-  .navbar-collapse.collapse {
-      display: none!important;
-  }
-  .navbar-nav {
-      float: none!important;
-      margin-top: 7.5px;
-  }
-  .navbar-nav>li {
-      float: none;
-  }
-  .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
-  .collapse.in{
-      display:block !important;
-  }
-}
-
-@media screen and (max-width: 615px) {
-    .navbar-inverse .navbar-brand {
-        font-size: 20px;
-    }
-}
-
-
-.navbar-inverse .navbar-nav a {
-    margin: 3px 3px 3px 3px;
-}
-.navbar-inverse .navbar-nav a:hover {
-    color: white;
-    margin: 3px 3px 3px 3px;
-}
-.navbar-inverse .navbar-nav a.active {
-    background: rgb(127, 127, 153);
-    color: white;
-    border-radius: 2px 2px 2px 2px;
-}
-
-.navbar-inverse .navbar-nav a.active:hover {
-	background-color: rgb(127, 127, 153);
-}
-
-
-
-a {
-	color: rgb(128, 191, 255);
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
-a:hover, a:focus {
-    color: rgb(102, 179, 255);
-    text-decoration: none;
-    outline: 0;
-}
-
-
-a:before, a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
-
 body {
-	font-family: 'Raleway', sans-serif;
-	background-color: rgb(250, 250, 250);
-	background-image: url(Photos/circuittexture.jpg);
+	color: #000;
+	background-color: lavender;
+	font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
-.dark-background {
-	background-image: url(Photos/circuittexture.png);
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-family: "Raleyway", sans-serif;
 }
-
-hr { 
-    display: block;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    border-style: inset;
-    border-width: 2px;
-} 
 
 p {
-	color: black;
-	text-align: justify;
-}
-
-h1 {
-	text-align: center;
-}
-
-h2 {
-	font-size: 20px;
-	font-weight: bold;
-}
-
-span {
-	color: black;
-}
-
-.parallax-art {
-	background-image: url(Photos/6edit.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .6;
-}
-
-
-.parallax-education1 {
-	background-image: url(Photos/neupic.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .7;
-}
-
-.parallax-education2 {
-	background-image: url(Photos/yunnandaxue.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .7;
-}
-
-.parallax-education3 {
-	background-image: url(Photos/westminster.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .7;
-}
-
-.parallax-experience1 {
-	background-image: url(Photos/STARSparticipation.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .7;
-}
-
-.parallax-experience2 {
-	background-image: url(Photos/barnes2.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .7;
-}
-
-.parallax-experience3 {
-	background-image: url(Photos/The%20Broken%20Cross%202.0%20Cover.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .6;
-}
-
-.parallax-experience4 {
-	background-image: url(Photos/DLG.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .7;
-}
-
-.parallax-projects {
-	background-image: url(Photos/circuittextureblue.jpg);
-	min-height: 100vh;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: .7;
-}
-
-.caption {
-	/*This makes the captions all be together at the top*/
-	position: absolute;
-	text-align: center;
-	width: 100%;
-	margin-top: 20%;
-}
-
-.caption2 {
-	/*This makes the captions all be together at the top*/
-	position: absolute;
-	text-align: center;
-	width: 100%;
-	margin-top: 10%;
-}
-
-.border {
-	background-color: black;
-	color: white;
-	opacity: .8;
-	padding: 20px;
-	font-size: 4vw;
-	font-family: 'Raleway', sans-serif;
-}
-
-@media screen and (max-width: 600px) {
-	.caption {
-		margin-top: 50%;
-	}
-
-    .border {
-        font-size: 20px;
-    }
-
-    .parallax-education1, .parallax-education2, .parallax-education3, 
-    .parallax-experience1, .parallax-experience2, .parallax-experience3, 
-    .parallax-experience4, .parallax-projects, .parallax-art,
-    .parallax-projects, .parallax {
-    	background-attachment: scroll;
-    }
-}
-
-#prof-border {
-	color: white;
-	opacity: .8;
-	font-size: 2vw;
-	font-family: 'Raleway', sans-serif;
-}
-
-
-.body-container {
-	padding: 80px;
-	font-size: 2rem;
-}
-
-
-footer {
-	border-top: 1px solid #FFFFFF;
-	background-color: rgb(127, 127, 153);
-	padding: 10px;
-	font-size: 15px;
-	text-align: center;
-}
-
-.contact {
-	text-align: center;
-}
-
-
-
-
-.updated {
-	background-color: rgb(26, 26, 26);
-	color: rgb(127, 127, 127) !important;
-	font-size: 10px;
-	padding: 50px;
-	margin-bottom: -10px;
-	text-align: center;
-}
-
-#cover {
-	margin-left: 100px;
-}
-
-#projects {
-	padding: 20px;
-}
-
-.projects {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 15%;
-	text-transform: uppercase;
-    letter-spacing: .6px;
-}
-
-.btn {
-	background-color: transparent;
-	border: 3px solid rgb(127, 127, 153);
-	color: rgb(127, 127, 153);
-	font-weight: bold;
-	border-radius: 0px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
 	font-size: 16px;
 }
 
-.btn:hover{
-	background-color: rgb(127, 127, 153);
-	border: 3px solid rgb(127, 127, 153);
+a {
 	color: white;
-	font-weight: bold;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
+a:hover {
+	color: lightgray;
+	text-decoration: none;
+}
+
+a:active {
+	color: red;
+}
+
+body {
+	padding-right: 0 !important 
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+
+/*---------- Nav Bar -----------*/
+nav > li {
+	font-size: 1.5rem;
+}
+
+.transparent-nav nav {
+	background: #000;
+	padding: 0;
+}
+
+.navbar {
+	background-color: #000;
+	opacity: .8;
+	text-transform: uppercase;
+	color: black;
+	z-index: 999;
+	font-weight: 300;
+	letter-spacing: 1px;
+
+	-webkit-transition: background .3s ease-in-out, padding .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, padding .3s ease-in-out;
+    transition: background .3s ease-in-out, padding .3s ease-in-out;
+}
+
+.navbar a {
+	color: #fff;
+}
+
+.navbar a:hover {
+	background-color: transparent !important;
+	color: #ccc;
+}
+
+.navbar-collapse {
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 818px) {
+    .nav > li > a {
+        padding: 15px 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding: 10px 0;
+        letter-spacing: 1px;
+        background: 0;
+    }
+}
+
+
+.icon-bar {
+	background-color: white;
+}
+
+
+
+
+
+/*--------splash page--------*/
+
+.jumbotron {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.73) 0%, rgba(0, 0, 0, 0.66) 17%, rgba(0, 0, 0, 0.55) 35%, rgba(0, 0, 0, 0.4) 62%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.splash-page {
+	background: url(photos/WayOfKings.jpg) center center;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+.overlay {
+	background-attachment: fixed;
+	height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.intro-content {
+	    margin: 20% 0 5% 0;
+	}
+}
+
+.intro-content {
+    padding: 15% 0 5% 0;
+}
+
+#intro h1 {
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+#intro p {
+	color: #aaa;
+}
+
+.scroll-down {
+	padding: 10px 14px;
+    color: white;
+    opacity: .7;
+    font-size: 18px;
+    position: sticky;
+    margin-top: 15%;
+    display: inline-block;
+}
+
+
+
+/* About Section */
+#about {
+	background-color: rgb(245, 245, 245);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#portrait {
+	width: 100%;
+	padding: 20px;
+	border-radius: 40px;
+}
+
+
+@media screen and (max-width: 1150px) {
+	#portrait {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#portrait {
+		margin-top: 0px;
+	}
+}
+
+.heading {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.subheading {
+	text-align: center;
+	font-size: 1.6em;
+}
+.divider {
+	display: block;
+	margin-left: 35vw;
+	margin-right: 35vw;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 3px;
+	background-color: gray;
+}
+
+#tldr {
+	background-color: rgb(228, 228, 228);
+	padding: 30px;
+	margin: 0 20% 0 20%;
+}
+
+
+/********* Experience Section **********/
+#experience {
+	background: url(photos/Distantedit.jpg) center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cover {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.73) 0%, rgba(0, 0, 0, 0.66) 17%, rgba(0, 0, 0, 0.55) 35%, rgba(0, 0, 0, 0.4) 62%, rgba(0, 0, 0, 0.3) 100%);
+	padding: 60px;
+}
+
+.image {
+	width: 60%;
+}
+
+#experience h2 {
+	color: white;
+}
+
+#experience a {
+	color: black;
+	outline: none;
+	border: none;
+}
+
+
+/* The vertical timeline bar */
+.timeline {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.timeline::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	background-color: rgba(112, 128, 144, 0.37);
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+}
+/* The circles on the timeline */
+.timepiece-left::after {
+	content: '';
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	right: -114px;
+	background-color: lightgray;
+	border: 4px solid slategray;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+}
+/* The circles on the timeline */
+.timepiece-right::after {
+	content: '';
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: -112px;
+	background-color: lightgray;
+	border: 4px solid slategray;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+}
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: "  ";
+    height: 0;
+    position: absolute;
+    top: 18px;
+    width: 0;
+    right: -15px;
+    border: medium solid white;
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent slategray;
+}
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 18px;
+    width: 0;
+    left: -15px;
+    border: medium solid white;
+    border-width: 20px 30px 20px 0;
+    border-color: transparent slategray transparent transparent;
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media all and (max-width: 991px) {
+	/* Place the timelime to the left */
+	.timeline::after {
+		left: -27px;
+	}
+	
+	/* Make sure that all arrows are pointing leftwards */
+	.left::before {
+		top: 18px;
+		left: -15px;
+		border: medium solid white;
+		border-width: 20px 30px 20px 0;
+		border-color: transparent slategray transparent transparent;
+	}
+  
+	/* Make sure all circles are at the same spot */
+	.left::after, .right::after {
+		left: -50px;
+	}
+	
+	/* Make all right containers behave like the left ones */
+	.right {
+		left: 0%;
+	}
+}
+
+
+/****** Resume Section ******/
+#resume {
+	background: url(photos/Resume.jpg) center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+
+/*** *** *** Projects Section *** *** ***/
+#projects {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: rgb(245, 245, 245);
+}
+
+#projects p {
+	margin-top: 25px;
+}
+
+.images {
+	width: 100%;
+	margin-bottom: 10px;
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#projects .images {
+	cursor: pointer;
+}
+
+#projects .images:hover {
+    opacity: .7;
+}
+
+.visit {
+	padding: 10px;
+	color: palevioletred;
+	border: 2px solid palevioletred;
+	text-decoration: none;
+	background-color: white;
+}
+
+.visit:hover {
+	background-color: palevioletred;
+	color: whitesmoke;
+}
+
+
+
+
+
+/* Artfolio Section */
+#portfolio {
+	padding-bottom: 80px;
+	padding-top: 40px;
+	background: linear-gradient(to bottom, rgba(30, 0, 30, 0.53) 0%, rgba(0, 0, 0, 0.40) 17%, rgba(0, 0, 0, 0.30) 35%, rgba(0, 0, 0, 0.40) 62%, rgba(0, 0, 0, 0.83) 100%);
+}
+
+#portfolio a {
+	color: #aaa;
+}
+
+#portfolio a:hover {
+	color: rgb(215, 215, 215);
+	outline-color: white;
+}
+
+.thumbnail {
+	background-color: black;
+	border: none;
+	opacity: .85;
+}
+
+#portfolio :hover {
+	opacity: 1;
+}
+
+
+
+/* Contact Me */
+#contact {
+	background: linear-gradient(to top, rgba(0, 4, 36, 0.83) 0%, rgba(114, 0, 0, 0.712) 20%, rgba(163, 73, 0, 0.73) 60%, rgba(163, 117, 0, 0.699) 70%, rgba(0, 58, 134, 0.6) 100%);	
+	height: 50vh;
+}
+
+#email {
+	text-decoration: none;
+}
+
+/* Footer Section */
+
+#footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: linear-gradient(to bottom, rgba(0, 4, 36, 0.83) 0%, rgba(12, 0, 29, 0.9) 100%);		
+}
+
+#footer p {
+	text-align: center;
+	color: rgb(215, 215, 215);
+}
+
+#footer h1 {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+#footer h1:hover {
+	color: #aaa;
+}

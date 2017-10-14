@@ -1,97 +1,809 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ciarra Peters | Software Developer</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
- 	<head>
- 		<title>Ciarra Peters</title>
- 		  	<meta charset="utf-8">
-   		  	<meta name="viewport" content="width=device-width, initial-scale=1">
-   			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.css">
+</head>
 
-   			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-   			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-   			
-   			<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-   			<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-   			<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
- 
- 			<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
- 		
- 			<link rel="stylesheet" type="text/css" href="style.css">
- 
- 			<script src="https://www.w3schools.com/lib/w3data.js"></script>
- 
- 	</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+         			<span class="icon-bar"></span>
+         			<span class="icon-bar"></span>
+         		</button>
+         		<a class="navbar-brand" href="#">Ciarra Peters</a>
+         		<!--add little icon logo here!-->
+         	</div>
+         	<div class="collapse navbar-collapse" id="myNavbar">
+         		<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">About</a></li>
+         			<li><a href="#experience">Work</a></li>
+         			<li><a href="#projects">Projects</a></li>
+         			<li><a href="#portfolio">Artfolio</a></li>
+         			<li><a href="#contact">Contact</a></li>
+         		</ul>
+         	</div>
+         </div>
+	</nav>
 
-	<body>
-		<div class="jumbotron">
-			<div class="Hi">
-				<span class="border">Ciarra Peters</span>
-				<br>
-				<br>
-				<span id="prof-border">Software Developer</span>
+	<!--Splash Page-->
+
+	<section id="intro" class="text-center splash-page">
+		<div class="overlay jumbotron">
+			<div class="intro-content">
+				<h1 class="animated fadeInDown">Ciarra Peters</h1>
+				<p class="animated fadeInUp">Software Developer &amp; Linguist</p>
+				<a class="scroll-down" href="#about" data-toggle="tooltip" title="Begin">开始</a>
 			</div>
 		</div>
-
- 		<nav class="navbar navbar-inverse navbar-fixed-top">
- 			<div class="container-fluid">
- 				<div class="navbar-header">
- 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-         				<span class="icon-bar"></span>
-         				<span class="icon-bar"></span>
-         				<span class="icon-bar"></span>                        
-       				</button>
- 				<a class="navbar-brand">Ciarra Peters</a>
- 				</div>
- 
- 				<div class="collapse navbar-collapse" id="myNavbar">
- 					<ul class="nav navbar-nav navbar-right">
- 						<li><a class="active" class="myNavbar" href="index.html">Home</a></li>
-   						<li><a class="myNavbar" href="education.html">Education</a></li>
-   						<li><a class="myNavbar" href="experience.html">Experience</a></li>
-   						<li><a class="myNavbar" href="portfolio.html">Portfolio</a></li>
-   						<li><a class="myNavbar" href="projects.html">Projects</a></li>
-   						<li><a class="myNavbar" href="WebsiteResume.pdf">Resume</a></li> 
-   					</ul>
-   				</div>
-   			</div>
- 		</nav>
+	</section>
 
 
-		<div id="bio">
-			<p>
-			As a sophomore at Northeastern University in Boston, pursuing a Bachelor of Science in Computer Science and Linguistics with a minor in Chinese Language, I am excited about the opportunities this experience is giving me. Originally from St. Louis, Missouri, and currently enjoying the great state of Massachusetts, I am looking forward to more opportunities.
-			<br>
-			<br>
-			
-			Some of my passions are designing, painting, reading, writing, drawing, Asian language and culture,<br>Japanese anime, animals, Lord of the Rings, meeting new people, and international travel.
-			<br>
-			<br>
 
-			</p>
+	<!--About-->
+	<section id="about" class="overlay">
+		<div class="container">
+			<h2 class="heading">A Bit About Me</h2>
+			<p class="subheading">Thanks for visiting. I'm a Software Developer, Linguist, and Chinese language enthusiast.</p>
+			<span class="divider text-center"></span>
+			<div class="row">
+				<div class="col-sm-1">
+				</div>
+				<div class="col-md-5">
+					<img id="portrait" src="photos/Banner2edit.jpg">
+				</div>
+				<div class="col-md-5 text-justify">
+					<p>
+						<strong>I'm a third year student at Northeastern University</strong> in Boston studying Computer Science, Linguistics, and Mandarin Chinese. 
+						I have experience with full-stack website development, designing cover art, and surviving in foreign countries. I aspire toward a career where 
+						I can express my creativity through engaging projects. Work experiences are learning experiences, 
+						and I look forward to working with individuals who are as eager to teach as I am to learn.
+					</p>
+					<p>
+						When I'm not sitting in front of my computer, I can be found reading high fantasy novels, dancing, or art-ing. Other than that, I'm usually trying my hand at Korean or Japanese through their amazing contributions to society in the forms of K-Pop and Japanese anime.
+					</p>
+					<p>
+						I have seen each Lord of the Rings movie (extended editions) at least 5 times each.
+					</p>
+				</div>
+				<div class="col-sm-1">
+				</div>
+			</div>
 			<br>
+			<div class="row text-center">
+				<div id="tldr">
+					<h3>Too long; didn't read?</h3>
+					<p>
+						Ciarra = Travel, design, foreign languages, and life-long learning!
+					</p>
+				</div>
+			</div>
 		</div>
+		<!--Passions - Parallax BG with Cool pic lol (shanghai?) -->
+		<!-- <div class="container text-center cover">
+			<h2>My Passions and Personality!</h2>
+			<p>Who am I as a person?</p> <!--subtitle class!-->
+			<!--List some activities? Northeastern Chinese Language Table, NUTRS, making dumplings?, yeah...-->
+			<!--make this cool with a bunch of colors of pics of things? Pics of time in China, pics of time in Korea, Anime, books, Kpop, things-that-inspire-me-section?-->
+			<!-- <p>I have a passion for building worlds - whether it be in a novel, a painting, a language, or a software project</p>
+		</div> -->
+	</section>
 
-	<footer>
-		<div>
-		<br>
-		<p class="contact">Contact Me<br>
-				Phone: <span>(314)-620-0040</span><br>
-				Email: <a href="mailto:peters.ci@husky.neu.edu">peters.ci@husky.neu.edu</a><br>
-		</p>
+	<!--Work -->
+	<section id="experience">
+		<div class="cover">
+			<h2 class="heading">My Work Experience</h2>
+			<div class="timeline">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+
+							<div class="timepiece-left left">
+								<div class="images panel panel-default">
+									<div class="panel-heading">
+										<h4>Koch Supply and Trading Co-op</h4>
+										<p>July 2017 - Present</p>
+									</div>
+									<div class="panel-body">
+										<p>Learning full-stack development by building a GUI for clients to map specific units of measure
+											from trading platforms. Working with technologies such as Angular 4, ASP.NET CORE and MVC, Entity Framework,
+											and SQL Server.
+										</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-7">
+						</div>
+						<div class="col-md-5">
+
+							<div class="timepiece-right right">
+								<div class="images panel panel-default">
+									<div class="panel-heading">
+										<h4>Peer Tutor - Ling 1250: Intro to Linguistics</h4>
+										<p>May 2017 - June 2017</p>
+									</div>
+									<div class="panel-body">
+										<p>Tutor students one-on-one about on Introductory Linguistics 
+											topics from Phonetics, Phonology, Morphology, and Syntax.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="timepiece-left left">
+								<div class="images panel panel-default">
+									<div class="panel-heading">
+										<h4>Honors Early Research Assistant</h4>
+										<p>Oct 2016 - June 2017</p>
+									</div>
+									<div class="panel-body">
+										<p>Responsible for testing a Game Design research team's technology, called Mad Science, 
+											by recreating psychology experiments in a virtual, game-like setting.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-7">
+						</div>
+						<div class="col-md-5">
+							<div class="timepiece-right right">
+								<div class="images panel panel-default">
+									<div class="panel-heading">
+										<h4>Teaching Assistant - CS 2800: Logic and Computation</h4>
+										<p>Sept 2016 - Dec 2016</p>
+									</div>
+									<div class="panel-body">
+										<p>Teaching Assistant for Logic and Computation, an introductory course to formal 
+											logic and its connections to computing. Tutored students one-on-one during office hours, 
+											graded homework and exams, and assisted in conducting labs. Met weekly for staff meetings 
+											to give feedback on student progress.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="timepiece-left left">
+								<div class="images panel panel-default">
+									<div class="panel-heading">
+										<h4>Virtual Reality Intern: Project Deep HoriXons</h4>
+										<p>May 2016 - July 2016</p>
+									</div>
+									<div class="panel-body">
+										<p></p>
+										<p>Collaborated remotely with a team from Discovery Lab Global. Learned the basics of Open Simulator, Scripting, Unity, and Blender 
+											and also conducted a team project to build a virtual region that allowed companies and engineers to meet and present 
+											their products in the virtual world. Initiated a side-project of 3D-modeling a hoverboard and programming an explanation of it. 
+											It was showcased in Project Deep HoriXons during the Ohio State Fair.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-7">
+						</div>
+						<div class="col-md-5">
+							<div class="timepiece-right right">
+								<div class="images panel panel-default">
+									<div class="panel-heading">
+										<h4>Mathematics Peer Tutor</h4>
+										<p>Sept 2016 - Dec 2016</p>
+									</div>
+									<div class="panel-body">
+										<p>Tutored students one-on-one in Calculus I, Calculus I for Science and Engineering, and Calculus II 
+											for Science and Engineering. Guided students through classroom examples and problem sets.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-5">
+							<div class="timepiece-left left">
+								<div class="images panel panel-default">
+									<div class="panel-heading">
+										<h4>Cover Artist</h4>
+										<p>Summer 2015</p>
+									</div>
+									<div class="panel-body text-center">
+										<p><i>The Broken Cross (A Cameron Ballack Mystery)</i> by Luke H. Davis</p>
+										<a href="http://www.amazon.com/Broken-Cross-Luke-H-Davis/dp/0988461382/ref=sr_1_1?ie=UTF8&qid=1457483451&sr=8-1&keywords=the+broken+cross+by+luke+h+davis">
+											<img class="image" src="Photos/cross.jpg" alt="Image">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-7">
+						</div>
+						<div class="col-sm-5">
+							<div class="timepiece-right right">
+								<div class="images panel panel-default">
+									<div class="panel-heading">
+										<h4>Cover Artist</h4>
+										<p>Summer 2013</p>
+									</div>
+									<div class="panel-body text-center">
+										<p><i>Litany of Secrets (A Cameron Ballack Mystery)</i> by Luke H. Davis</p>								
+										<a href="http://www.amazon.com/Litany-Secrets-Luke-H-Davis/dp/0988461323/ref=sr_1_1?ie=UTF8&qid=1457483409&sr=8-1&keywords=litany+of+secrets+by+luke+h.+davis">
+											<img class="image" src="Photos/litany.jpg" alt="Image">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Projects -Solid BG with projects pics Maybe I should flip resume and projects??? Only for parallax BG tho... but then passions wouldn't be parallax? We shall see... Maybe passions should just be a bunch of photos together-->
+	<section id="projects" class="overlay">
+		<div class="container text-center">
+			<div class="col-lg-12 text-center">
+				<h2 class="heading">Projects</h2>
+				<p class="subheading">More in Progress!</p>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div data-toggle="modal" data-target="#modal1">
+						<img class="images slideanim" src="photos/ChanguagePicedit.png" alt="image">
+					</div>
+					<div class="modal fade" id="modal1" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">NEU Chinese Language Table</h4>
+									<p>Club Website</p>
+								</div>
+								<div class="modal-body">
+									<img class="img-responsive" src="photos/ChanguagePicedit.png" alt="image">
+									<p>While serving on the eBoard of the Northeastern University Chinese Language Table Club,
+										I designed and built the club website from the ground up. I continue to serve as
+										Webmaster for the club and maintain the website.
+									</p>
+									<p>
+										<a href="http://neuchanguagetable.github.io" class="visit">Visit Site</a>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div data-toggle="modal" data-target="#modal2">
+						<img class="images slideanim" src="photos/PersonalWebsiteedit.jpg" alt="image">
+					</div>
+					<div class="modal fade" id="modal2" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Personal Website 2.0</h4>
+								</div>
+								<div class="modal-body">
+									<img class="img-responsive" src="photos/PersonalWebsiteedit.jpg" alt="image">										
+									<p>After learning more about web design and development, I decided to try my
+										hand at updating my persoanl website by making it more responsive and user friendly,
+										while also designing it to look more modern.
+									</p>
+									<p>
+										<a href="#" class="visit">Visit Site</a>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div data-toggle="modal" data-target="#modal3">
+						<img class="images slideanim" src="photos/OldWebsiteedit.jpg" alt="image">
+					</div>
+					<div class="modal fade" id="modal3" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Personal Website</h4>
+								</div>
+								<div class="modal-body">
+									<img class="img-responsive" src="photos/OldWebsiteedit.jpg" alt="image">																				
+									<p>This was my first personal website I began to build in 2016 and continued to edit
+										into 2017. It was a static webpage built with just html and css. With my
+										newer website I began to focus more on cleaner and more organized code, as well
+										as streamlining classes.
+									</p>
+									<p>
+										<a href="indexOld.html" class="visit">Visit Site</a>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br><br>
+
+			<div class="row">
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4">
+					<div data-toggle="modal" data-target="#modal4">
+						<img class="images slideanim" src="photos/hallcounciledit.jpg" alt="image">
+					</div>
+					<div class="modal fade" id="modal4" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Hall Council 2016</h4>
+								</div>
+								<div class="modal-body">
+									<img class="img-responsive" src="photos/hallcounciledit.jpg" alt="image">																														
+									<p>This was a fun website I threw together as an election platform to help my
+										classmates get voted in as hall council members for our residence halls at school.
+										It relied very heavily on the w3schools bootstrap themes for the design.
+									</p>
+									<p>
+										<a href="https://hallcouncil2016.github.io" class="visit">Visit Site</a>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div data-toggle="modal" data-target="#modal5">
+						<img class="images slideanim" src="photos/DiscoveryLabedit.png" alt="image">
+					</div>
+					<div class="modal fade" id="modal5" role="dialog">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" onClick="pause()">&times;</button>
+									<h4 class="modal-title">Discovery Lab Global - Project Deep HoriXons</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										<video id="video1" style="width:40vw;">
+											<source src="VTCConferenceRegion_Video.mp4" type="video/mp4">
+											<source src="VTCConferenceRegion_Video.ogg" type="video/ogg">
+											Your browser does not support HTML5 video.
+										</video>
+									</p>
+									<p>This video is a demo of the virtual world my team and I created using OpenSim,
+										Unity, and Blender. This was the Region used in the Virtual Technology Conference 2016
+										to allow engineers and professors from around the globe to communicate their research remotely.
+									</p>
+									<p>
+										<button class="visit" onclick="playPause()">Play/Pause Video</button>
+										<a href="http://www.discoverylabglobal.com/" class="visit">Visit Their Site</a>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal" onClick="pause()">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+			</div>
+					
+		</div>
+	</section>
+
+	<!--Resume - Span bar animated! Color flow from Work section-->
+	<section id="resume">
+		<div class="cover text-center">
+			<a href="photos/Resume.pdf">
+				<span><h2>Grab a Copy of My Resume</h2></span>
+			</a>
+		</div>
+	</section>
+
+	<!--Portfolio -->
+	<!--add in my newest artwork!!!-->
+	<section id="portfolio" class="overlay">
+		<div class="container text-center">
+			<h2 class="heading">Artistic Dabbling</h2>
+			<h3>Photographs</h3>
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="Photos/BeachedBarnaclesedit.jpg" class="thumbnail images slideanim">
+						<span>Beached Barnacles</span>
+						<img src="Photos/BeachedBarnaclesedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/ForbiddenGardenedit.jpg" class="thumbnail images slideanim">
+						<span>Forbidden Garden</span>
+						<img src="Photos/ForbiddenGardenedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/HeartPooledit.jpg" class="thumbnail images slideanim">
+						<span>Hearts in Rock</span>
+						<img src="Photos/HeartPooledit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+			</div>
+
+			<div class="row">		
+				<div class="col-sm-2">
+				</div>			
+				<div class="col-sm-4">
+					<a href="Photos/CrookedCanyonedit.jpg" class="thumbnail images slideanim">
+						<span>Crooked Canyon</span>
+						<img src="Photos/CrookedCanyonedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-5">
+					<a href="Photos/TheCanyonedit.jpg" class="thumbnail images slideanim">
+						<span>Grand Canyon</span>
+						<img src="Photos/TheCanyonedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-1">
+				</div>
+			</div>
+
+			<div class="row">		
+				<div class="col-sm-4">
+					<a href="Photos/Sky700edit.jpg" class="thumbnail images slideanim">
+						<span>Sky700</span>
+						<img src="Photos/Sky700edit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/ToiletLatteedit.jpg" class="thumbnail images slideanim">
+						<span>Rose Toilet Latte</span>
+						<img src="Photos/ToiletLatteedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Photos/Patbingsuedit.jpg" class="thumbnail images slideanim">
+						<span>Mango Cheesecake Patbingsu</span>
+						<img src="Photos/Patbingsuedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-1">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="Photos/Coyedit.jpg" class="thumbnail images slideanim">
+						<span>Coy</span>
+						<img src="Photos/Coyedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Photos/HoneyButterflyedit.jpg" class="thumbnail images slideanim">
+						<span>Honey Butterfly</span>
+						<img src="Photos/HoneyButterflyedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Photos/LilyPadRaftedit.jpg" class="thumbnail images slideanim">
+						<span>Lilypad Sailing</span>
+						<img src="Photos/LilyPadRaftedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Photos/ThousandStairsedit.jpg" class="thumbnail images slideanim">
+						<span>Thousand Stairs</span>
+						<img src="Photos/ThousandStairsedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+			</div>
+
+
+			<h3>Oil and Pastel Paintings</h3>
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="Photos/hanaedit.jpg" class="thumbnail images slideanim">
+						<span>Oil - 2015</span>
+						<img src="Photos/hanaedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/snowpasteledit.jpg" class="thumbnail images slideanim">
+						<span>Pastel - 2012</span>
+						<img src="Photos/snowpasteledit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/lakepasteledit.jpg" class="thumbnail images slideanim">
+						<span>Pastel - 2012</span>
+						<img src="Photos/lakepasteledit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+			</div>
+
+			<h3>Watercolors</h3>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="Photos/masksedit.jpg" class="thumbnail images slideanim">
+						<span>2013</span>
+						<img src="Photos/masksedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Photos/rosesedit.jpg" class="thumbnail images slideanim">
+						<span>2013</span>
+						<img src="Photos/rosesedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Photos/negativeedit.jpg" class="thumbnail images slideanim">
+						<span>2013</span>
+						<img src="Photos/negativeedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Photos/treesedit.jpg" class="thumbnail images slideanim">
+						<span>2013</span>
+						<img src="Photos/treesedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/6edit.jpg" class="thumbnail images slideanim">
+						<span>2013</span>
+						<img src="Photos/6edit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+				</div>
+			</div>
+
+			<h3>Charcoals</h3>
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="Photos/connorchar.png" class="thumbnail images slideanim">
+						<span>2013</span>
+						<img src="Photos/connorcharedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/charcoalboot.jpg" class="thumbnail images slideanim">
+						<span>2012</span>
+						<img src="Photos/charcoalbootedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/blanket.jpg" class="thumbnail images slideanim">
+						<span>2012</span>
+						<img src="Photos/blanketedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+			</div>
+
+			<h3>Designs</h3>
+			<span>Tattoo Progression - 2013</span>
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="Photos/tattoo sketch.png" class="thumbnail images slideanim">
+						<span>Sketch</span>
+						<img src="Photos/tattoo sketchedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/tattoo copy.png" class="thumbnail images slideanim">
+						<span>Ink</span>
+						<img src="Photos/tattoo copyedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/tattoo.png" class="thumbnail images slideanim">
+						<span>Finished Product</span>
+						<img src="Photos/tattooedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+			</div>
+
+			<h3>Drawings</h3>
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="Photos/mombday.png" class="thumbnail images slideanim">
+						<span>Pencil and Watercolor - 2016</span>
+						<img src="Photos/mombdayedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/chapel.jpg" class="thumbnail images slideanim">
+						<span>Pencil - 2013</span>
+						<img src="Photos/chapeledit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/sungmin.jpg" class="thumbnail images slideanim">
+						<span>Pencil - 2012</span>
+						<img src="Photos/sungminedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/kyuhyun3edit.jpg" class="thumbnail images slideanim">
+						<span>Pencil - 2012</span>
+						<img src="Photos/kyuhyun3edit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="Photos/hand.jpg" class="thumbnail images slideanim">
+						<span>Graphite - 2012</span>
+						<img src="Photos/handedit.jpg" class="img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+				<div class="col-sm-2">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!--Add pop-ups when you click on some of my artwork!-->
+
+
+
+	<!--Contact-->
+	<section id="contact">
+		<div class="container text-center">
+			<h1 class="slideanim">&#9790;</h1>
+			<br><br>
+			<h2>Talk to me!</h2>
+			<p>
+				Whether it's about a project, a favorite novel, Lord of the Rings, or if you just want to say hi, I'd love to chat.
+			</p>
+			<h1><span><a id="email" href="mailto:peters.ci@husky.neu.edu" target="_blank" class="glyphicon glyphicon-envelope"></a></span></h1>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<p>&copy; Ciarra Peters 2017</p>
+				<p>If you would like to use any of the original art found on this site, please credit and contact me for a higher quality version.
+					Photo credit goes to Michael Whelan for the inspirational splash-page photo at the top of my site. It is the cover art for one of my
+					favorite novels by Brandon Sanderson: <a href="https://brandonsanderson.com/books/the-stormlight-archive/the-way-of-kings/">The Way of Kings</a>.
+				</p>
+				<p>Made with &#10085; by Ciarra Peters</p>
+				<h1><a href="#" data-toggle="tooltip" title="To infinity, and beyond!">&#9653;</a></h1>
+			</div>
 		</div>
 	</footer>
 
-	<div>
-			<p class="updated">Last updated March 2, 2017<br>Use of the images found on this website is prohibited without permission from the creator.<br>Copyright pending 2016
-			</p>
-	</div>
+
+<!-- 
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+ -->
+
+	<script>
+		// Navbar functions
+		const nav = document.querySelector("nav");
+		const topOfNav = nav.offsetTop;
+		function transparentNav() {
+			if (window.scrollY > 0) {
+				document.body.classList.add('transparent-nav');
+			}
+			else {
+				document.body.classList.remove('transparent-nav');
+			}
+		}
+		window.addEventListener('scroll', transparentNav);
+
+		// Tooltip function
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		});
+
+		// Video functions
+		var myVideo = document.getElementById("video1"); 
+		function playPause() { 
+			if (myVideo.paused) 
+				myVideo.play(); 
+			else 
+				myVideo.pause(); 
+		}
+		function pause() {
+			myVideo.pause();
+		}
+
+		// Upward slide animation for photos
+		$(window).scroll(function() {
+			$(".slideanim").each(function(){
+			var pos = $(this).offset().top;
+
+			var winTop = $(window).scrollTop();
+				if (pos < winTop + 600) {
+				$(this).addClass("slide");
+				}
+			});
+		});
+
+		// Link scrolling smooth animation
+		$(document).ready(function(){
+			// Add smooth scrolling to all links in navbar + footer link
+			$("a").on('click', function(event) {
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+					}, 900, function(){
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+						});
+				} // End if
+			});
+		});
+	</script>
 
 
-	<!div w3-include-html="footer.html"><!/div>
-
-
-	<script type="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script>w3IncludeHTML();</script>
-	</body>
-
+</body>
 </html>
